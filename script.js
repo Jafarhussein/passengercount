@@ -6,8 +6,6 @@ welcomeEl.innerText = greeting;
 
 welcomeEl.innerText += "👋";
 
-// document.getElementById("count-el").innerText = 5; //document är alltså html doc och get ellement är som en div,h tagg osv
-//eftersom vi har en id så skriver vi en byId sedann parantes och "" och inne i air quote så har man id namnet
 let count = 0;
  
 function increment(){ //lyssnar på onclick element
@@ -22,19 +20,11 @@ function decrease(){
 
 const saveEl = document.getElementById('save-el');
 function save(){
-    let countstr= count + "-";
-    saveEl.innerText += countstr;
+    let countstr= count + "-";//sparar vår count till en ny variabel
+    saveEl.innerText += countstr;// skriver ut variabel
     console.log(count)
 }
 
 
 
-// let name = "Jafar";
-// let greeting = "Hi, my name is ";
-
-// let myGreeting = greeting + name;
-
-// console.log(myGreeting);
-
-// /*9, 24, 51,100100 */
 
